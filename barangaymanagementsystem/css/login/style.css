@@ -79,6 +79,8 @@ form.sign-in-form {
   position: relative;
 }
 
+
+
 .input-field i {
   text-align: center;
   line-height: 55px;
@@ -182,6 +184,8 @@ form.sign-in-form {
   width: 35%;
   transition: transform 1.1s ease-in-out;
   transition-delay: 0.4s;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
 }
 
 .panel {
